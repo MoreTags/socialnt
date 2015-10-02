@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Pschh - Das neue Netzwerk</title> 
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="js/menu.js"></script>       
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <!---<audio autoplay>
+    <source src="mp3/test.mp3" type="audio/mpeg">
+  </audio>--->
+   
+  <noscript><p>Bitte Aktivieren Sie JavaScript :'(</p></noscript>
+  
+  <div class="top" align="center">
+    <a href="index.html"><h1 class="topueber"><b>Pschh</b></h1></a>
+  </div>
+      
+  
+ <div class="contlogin">
+	<input type="text" class="modal_tb2" placeholder="E-Mail">
+	<input type="text" class="modal_tb2" placeholder="Passwort">
+ </div>
+  
+  
+  
+  <div id="body_oben"></div> 
+  <div class="text" align="center">  
+     <br><br><br><br><br><br><br><br> 
+    <!--<h3 class="subueberschrift"> Das neue Soziale Netzwerk</h3>-->   
+    <h1 class="brand">Pschh</h1>
+    <br>
+     <!--<h2 class="beschreibung">Ein Netzwerk für Menschen mit Freiheit</h2>-->
+    <br> 
+	<!--<div class="login" align="center">Login</div>-->
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="pr-wrap">
+                <div class="pass-reset">
+                    <input type="email" placeholder="Email" />
+                    <input type="submit" value="Submit" class="pass-reset-submit btn btn-success btn-sm" />
+                </div>
+            </div>
+            <div class="wrap">
+                <form class="login_modal" action="php/anmelden.php" method="$_REQUEST">
+                <input type="text" class="tb_modal" placeholder="Email" name="a_email"/>
+                <input type="password" class="tb_modal" placeholder="Passwort" name="a_password"/>
+                <input type="submit" value="Anmelden" class="registrieren" />  
+                <div class="remember-forgot">   
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="checkbox" align="left">
+                                <label>
+                                    <input type="checkbox" />Angemeldet bleiben
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6 forgot-pass-content">
+                            <a href="#" class="forgot-pass">Passwort vergessen</a>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>	
+ </div> 
+ 
+ 
+    
+  <div class="ws"></div>           
+  <div class="conreg">
+    <div class="left">
+    <br><br><br> 
+      <p>Jetzt Registrieren und sofort loslegen!<p>
+      <p>Die Registrierung dauert nur wenige Sekunden und Sie können sofort alle Features des neuen Netzwerkes Nutzen! Profitieren Sie von unserem Support und Strenger Geheimhaltun Ihrer Daten. Schon bei der Registrierung verlangen wie keine Sensiblen Daten von Ihnen. Überzeugin Sie sich jetzt.</p>
+    </div>
+	 
+  <div class="genaues">
+	<div class="genaues1"><h1>Anonym!</h1><p class="text_unten"><br>Mit dem neuen Netzwerk Anonym im Netz. Senden Sie Nachrichten und Daten ohne ein schlechtes Gewissen.Garantiert!</p></div>
+	<div class="genaues2"><h1>Individuell!</h1><p class="text_unten"><br>Individualisieren Sie Ihr Profil so, wie Sie es haben wollen! Mit zahlreichen Designs!</p></div>
+  </div>
+    
+    <div class="right">
+	<form action="php/registrieren.php" method="$_REQUEST">
+      <br>
+      <h3 class="modal_text">E-Mail:</h3>            
+      <input type="text" class="modal_tb" name="email">
+		  <h3 class="modal_text">Vorname:</h3>
+      <input type="text" class="modal_tb" name="vornamen">
+		  <h3 class="modal_text">Nachname:</h3>
+      <input type="text" class="modal_tb" name="nachnamen">
+		  <h3 class="modal_text">Passwort:</h3>
+      <input type="password" class="modal_tb" name="passwort">
+		  <h3 class="modal_text">Passwort bestätigen:</h3>
+      <input type="password" class="modal_tb" name="bestaetigen">
+        <div align="center"><br>
+          <input class="registrieren" type="submit" value="Registrieren">
+        </form>   
+     </div>
+   </div>
+  </div>  
+  
+
+    <a class="facebook" href="https://www.facebook.com/PschhNetzwerk"><div align="center">F</div></a>     
+    <a class="blog" href="http://pschhnetzwerk.blogspot.de/"><div align="center">B</div></a>
+ 
+     
+
+
+  
+  
+</body>
+</html>

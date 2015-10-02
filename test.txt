@@ -1,0 +1,1 @@
+Testnachricht zum Prüfen, ob Git Funktionstüchtig

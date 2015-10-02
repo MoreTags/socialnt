@@ -1,0 +1,551 @@
+@font-face {
+  font-family: 'BOYZRGRO';
+  src: url('fonts/BOYZRGRO.ttf') format('truetype');
+  }   
+
+@font-face {
+  font-family: 'ACKNO';                                                   
+  src: url('fonts/ACKNO.ttf') format('truetype');  
+}
+
+@font-face {
+  font-family: 'ANJA';
+  src: url('fonts/ANJA.ttf') format('truetype');  
+}  
+  
+@font-face {
+  font-family: 'Allstar4';
+  src: url('fonts/Allstar4.ttf') format('truetype');  
+}  
+
+
+
+
+/*Standartisierung*/
+
+h1 {
+	font-family: Helvetica;  
+}
+
+h2 {
+	font-family: Helvetica;
+}
+
+p {
+	font-family: Helvetica; 
+}
+
+
+
+html {
+  top:0px; 
+  overflow-x:hidden;
+  overflow-y:scroll;
+}
+
+/*Navigation*/
+
+.top {
+  position:fixed;  
+  height:80px;
+  width:100%;  
+  z-index:5;
+}
+
+.topueber {
+  position:absolute;
+  left:30px;
+  width:125px;
+  cursor:pointer;
+  color:white;
+  text-shadow: 0px 0px 5px black;
+
+  
+}
+
+.topueber:hover {
+  color:#E35134;
+}
+
+.facebook {
+  width:10%; 
+  font-size:20px;
+  position:absolute;
+  color:black;  
+  border:2px solid black;
+  text-decoration:none;
+}
+
+
+
+.blog {
+  width:10%; 
+  font-size:20px;
+  position:absolute;
+  color:black;  
+  border:2px solid black;
+  text-decoration:none;
+}
+
+
+
+/*Überschriften/Text*/
+
+.brand { 
+  font-family: Allstar4;
+  color:white;
+  letter-spacing: 8px; 
+  font-size: 80px;  
+  border-top:double;
+  border-bottom:double;
+  width:250px; 
+}
+
+
+.subueberschrift {
+  color:white;
+  font-family: Helvetica;
+  letter-spacing: 8px; 
+}
+
+.beschreibung {
+  color:white;      
+  width:500px;
+  font-family: Helvetica;
+  letter-spacing: 3px;
+}
+
+.navitext {
+  color: #E35134; 
+  font-size: 22px;
+}
+.navitext:hover {
+  background-color:white; 
+  color:#6E504B;
+  cursor:pointer; 
+  text-decoration:none;
+}
+
+.zurueck {
+  color: #E35134;
+  font-size: 22px;  
+}
+
+.zurueck:hover {
+  background-color:white; 
+  color:#6E504B;
+  cursor:pointer;  
+  text-decoration:none;
+}
+                             
+.inhalt_ueber {
+  font-size: 50px;
+}
+
+/*Icons*/
+
+.menu{
+  width:10px;
+  color: #E35134;  
+
+}
+
+.menu:hover {
+  color:#FFFFFF;  
+  text-shadow:0 0 3px #DD2C00;
+  cursor:pointer;  
+}
+
+
+/*Container*/
+
+body {
+  left:0px; 
+}
+
+#body_oben {
+  top:0px;
+  left:0px;
+  position:fixed;
+  height: 100%;
+  width: 100%; 
+  background-image:url("../img/pic08.jpg");
+  background-size:cover;     
+  z-index:1;
+}
+
+
+.text {
+  left:10%;
+  top: 100px;
+  position:absolute;  
+  height:200px;   
+  width: 80%; 
+  z-index:2; 
+}
+
+
+.navi {
+  text-align:center;
+  top:0px;
+  width:15%;
+  height:300%;   
+  margin-bottom:10px;
+  position: fixed;
+  left: 0px;  
+  display:none; 
+  color:white;     
+  font-size:16px;
+  letter-spacing:5px;
+  z-index:2;   
+  padding:10px; 
+}
+
+.contlogin {
+  position:relative;
+  display:block;
+  height:10%;
+  width:80%;
+  display:none;
+  z-index:4;
+}
+
+.inhalt {
+  left:0px;
+  top:600px;
+  position:absolute;
+  height: 100%;
+  width: 100%; 
+  filter:(20px);
+  z-index:1;
+}
+
+.ws {
+  position:absolute;
+  width:100%;
+  height:600px;    
+  top:100%; 
+  background-color:white; 
+  opacity:0.5;
+  z-index:2; 
+}
+
+.genaues {
+  position:absolute;
+  height:500px;
+  width:100%;
+  top:100%;
+  z-index:2;
+}
+
+.genaues1 {
+  position:absolute;
+  height:80%;
+  width:38%;
+  top:10%;
+  left:10%;
+  color:white;
+}
+
+.genaues2 {
+  position:absolute;
+  height:80%;
+  width:38%;
+  top:10%;
+  left:50%;
+  color:white;
+}
+
+.login {
+  position:absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border:2px solid white;
+  width:200px;
+  font-size:30px;
+  color:white;
+  text-decoration:none;	
+}
+
+.login:hover {	
+  cursor:pointer;
+}
+
+.text_unten {
+  font-size:20px;  
+
+}
+/*Registrieren_Container*/
+
+.conreg {
+  position:absolute;
+  width:100%;
+  height:600px;    
+  top:100%; 
+  z-index:2;
+}
+
+.left {
+  position:absolute;     
+  left:10%;
+  width:35%;
+  height:80%:
+  background-color:red; 
+  font-size:20px;
+}
+
+.right {
+  position:absolute;
+  left:50%;
+  width:40%;
+  height:80%;
+  filter:(20px); 
+  font-size:20px;
+}
+/*Schaltflächen*/
+
+.registrieren {
+  height:40px;
+  width:180px; 
+  background-color:white;
+  border:2px solid black;        
+  font-size:18px;
+  letter-spacing:1px;
+  color:black;
+  
+}
+
+.registrieren:hover {
+  background-color:#DFDFDF;  
+}
+
+
+
+
+
+
+.modal_tb {
+  border-bottom:1px solid black;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  background:none;
+  width:400px;
+}
+
+.modal_tb2 {
+  border-bottom:2px solid black;
+  top:20%;
+  border-left:none;
+  border-top:none;
+  border-right:none;
+  margin:30px;
+  width:30%;
+  height:50%;
+  font-size:30px;
+}
+
+/*Login Modal*/
+
+
+.container {
+  width:500px;
+}
+
+.wrap
+{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+p.form-title
+{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+form
+{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.tb_modal {
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid black;  
+    background:none; 
+    width:100%;
+    margin-top:30px;
+    font-size:20px;
+}
+
+bt_anmelden {
+  border:1px solid black;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:white;
+}
+
+form.login input[type="text"], form.login input[type="password"]
+{
+    width: 100%;
+    margin: 0;
+    padding: 5px 10px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+form.login_modal input[type="submit"]
+{
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 16px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+form.login_modal input[type="submit"]:hover
+{
+    transition: background-color 0.5s ease;
+}
+
+form.login_modal .remember-forgot
+{
+    float: left;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+form.login_modal .forgot-pass-content
+{
+    min-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+form.login_modal label, form.login a
+{
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+form.login_modal a
+{
+    transition: color 0.5s ease;
+    color:white;
+}
+
+form.login_modal a:hover
+{
+    color: #2ecc71;
+}
+
+.pr-wrap
+{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.show-pass-reset
+{
+    display: block !important;
+}
+
+.pass-reset
+{
+    margin: 0 auto;
+    width: 250px;
+    position: relative;
+    margin-top: 22%;
+    z-index: 999;
+    background: #FFFFFF;
+    padding: 20px 15px;
+}
+
+.pass-reset label
+{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.pass-reset input[type="email"]
+{
+    width: 100%;
+    margin: 5px 0 0 0;
+    padding: 5px 10px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    outline: 0;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #000000;
+    outline: 0;
+}
+
+.pass-reset input[type="submit"]
+{
+    width: 100%;
+    border: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 10px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.pass-reset input[type="submit"]:hover
+{
+    transition: background-color 0.5s ease;
+}
+
+
