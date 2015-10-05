@@ -1,4 +1,5 @@
 <?php        
+  error_reporting(0);
   session_start(); 
   
   $host = "localhost";
@@ -20,7 +21,7 @@
 
   $rows = $result->fetch(PDO::FETCH_NUM);
 
-  echo '<b>' . $rows[1] . " " . $rows[2];
+  //echo '<b>' . $rows[1] . " " . $rows[2];
 
             
  

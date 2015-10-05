@@ -1,8 +1,10 @@
 <?php
-  
+
+include 'settings.php';  
+
   echo '<html><head> 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <link rel="stylesheet" href="../css/post.css">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
         </head><body>'; 
         
         
@@ -35,9 +37,9 @@
    
 
   foreach($exec as $row) {
-    echo'<div class="post">';
-    print $row["Vorname"] . " " . $row["Nachname"] . " " . $row["Datum"] . "<br>" . $row["Text"] . "<br><br><p>L&ouml;schen</p>"; 
-    echo'</div>';
+    echo'<div align="left" class="w3-card-2 w3-light-grey" style="width:500px;">';
+    print $row["Vorname"] . " " . $row["Nachname"] . " " . $row["Datum"] . "<br>" . $row["Text"]; echo '<br><br><button class="w3-btn w3-red">Löschen</button><br>'; 
+    echo'</div><br>';
   }
   echo '</body></html>';
 ?>

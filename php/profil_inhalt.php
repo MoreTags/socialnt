@@ -16,9 +16,8 @@
 
   $rows = $result->fetch(PDO::FETCH_NUM);
 
-  echo $rows[1];
                             
-  $datum = date("m.d.y");
+  $datum = date("d.m.y");
   $text = $_REQUEST['post']; 
   
   $test = "test";
@@ -29,5 +28,5 @@
   $result->bindParam(':text', $text);
   $result->execute(); 
   
-  header("location: ../profil.html");
+  header("location: ../profil.php");
 ?>

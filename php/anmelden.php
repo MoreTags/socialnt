@@ -34,7 +34,7 @@ $rows = $result->fetch(PDO::FETCH_NUM);
 
 if($rows > 0) {
 
-  header("location: ../profil.html");
+  header("location: ../profil.php");
 }
 
 else{
